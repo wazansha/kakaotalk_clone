@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KakaoTalk_Clone</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="body-container">
+
+    <!-- LOGO -->
+    <section class="section logo">
+
+        <div class="inner">
+            <img src="./img/logo.png" alt="kakaotalk" class="kakaotalk-logo">
+        </div>
+
+    </section>
+
+
+    <!-- 로그인 폼 -->
+    <section class="section login-form">
+        <form id="sign-form" method="POST" action="">
+            <div class="inner">
+
+                <div class="sign-group">
+                    <input type="email" class="input--text" placeholder="카카오계정 (이메일 또는 전화번호)">
+                    <input type="password" class="input--text" placeholder="비밀번호">
+                </div>
+
+                <div class="btn sign-in">
+                    <button type="submit" class="btn--login">로그인</button>
+                </div>    
+
+                <div class="others">
+                    <div class="checkbox">
+                        <input type="checkbox" id="auto-login">
+                        <label for="auto-login"></label>
+
+                        <span id="checkbox-text">실행시 자동 로그인</span>
+
+                        <button type="button" class="question-mark">?</button>
+                        <label for="question-mark"></label>
+                        <span class="question-mark-text"><a href="#"></a>?</span>
+                    </div>
+                </div>
+                
+            </div>
+        </form>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="section">
+
+        <div class="inner account">
+
+            <ul>
+                <li><a href="#">카카오계정 찾기<a></li>
+                <li><a href="#" class="bar">|<a></li>
+                <li><a href="#">비밀번호 재설정<a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>

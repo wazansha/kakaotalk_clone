@@ -1,0 +1,162 @@
+/* COMMON */
+* {
+    background-color: #FDE820;
+}
+
+.section {
+    background-color: #FEE928
+}
+
+.section .inner {
+    max-width: 242px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* INPUT-TEXT */
+.input--text {
+    width: 200px;
+    height: 34px;
+    background-color: #fdfdfd;
+    padding: 3px 16px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+    font-size: 13px;
+}
+
+.input--text::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+.input--text::-ms-input-placeholder {
+    color: #aaa;
+}
+
+.input--text::-moz-input-placeholder {
+    color: #aaa;
+}
+
+/* LOGO */
+.section.logo {
+    padding-top: 10%;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kakaotalk-logo {
+    width: 160px;
+    height: 160px;
+}
+
+/* 로그인 폼 */
+.section.login-form {
+    padding-bottom: 190px;
+}
+
+.btn.sign-in {
+    margin-bottom: 8px;
+}
+
+/* BTN */
+.btn--login {
+    width: 233px;
+    height: 34px;
+    margin-top: 8px;
+    background: #fdfdfd;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa
+}
+
+/* 실행시 자동 로그인, 물음표 버튼 */
+.others {}
+
+
+#auto-login+label {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #d5d5d5;
+    background: #fdfdfd;
+}
+
+#auto-login:checked+label {
+    background-color: #746C17;
+}
+
+#auto-login {
+    /* 자기 자신을 기준으로 왼쪽으로 2px 정도 움직이게 */
+    display: none;
+}
+
+#checkbox-text {
+    position: relative;
+    bottom: 1px;
+    right: 5px;
+    font-size: 12px;
+    margin-left: 3px;
+    color: #746C17
+}
+
+.question-mark {
+    display: none;
+}
+
+.question-mark+label {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #DECD25;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.question-mark-text {
+    position: relative;
+    bottom: 1px;
+    right: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #746C17;
+}
+
+
+/* FOOTER */
+.section .inner.account {
+    padding-bottom: 38px;
+}
+
+.section .inner.account ul {
+    display: flex;
+    justify-content: center;
+}
+
+.section .inner.account ul li {
+    margin-right: 9px;
+}
+
+.section .inner.account ul a.bar {
+    color: #A4961D;
+}
